@@ -1,0 +1,765 @@
+    PID TTY    CMD
+      1 ?      systemd
+
+      2 ?      kthreadd
+
+      3 ?      rcu_gp
+
+      4 ?      rcu_par_gp
+
+      6 ?      kworker/0:0H-events_highpri
+
+      9 ?      mm_percpu_wq
+
+     10 ?      rcu_tasks_rude_
+
+     11 ?      rcu_tasks_trace
+
+     12 ?      ksoftirqd/0
+
+     13 ?      rcu_sched
+
+     14 ?      migration/0
+
+     15 ?      idle_inject/0
+
+     16 ?      cpuhp/0
+
+     17 ?      cpuhp/1
+
+     18 ?      idle_inject/1
+
+     19 ?      migration/1
+
+     20 ?      ksoftirqd/1
+
+     22 ?      kworker/1:0H-events_highpri
+
+     23 ?      cpuhp/2
+
+     24 ?      idle_inject/2
+
+     25 ?      migration/2
+
+     26 ?      ksoftirqd/2
+
+     28 ?      kworker/2:0H-events_highpri
+
+     29 ?      cpuhp/3
+
+     30 ?      idle_inject/3
+
+     31 ?      migration/3
+
+     32 ?      ksoftirqd/3
+
+     34 ?      kworker/3:0H-events_highpri
+
+     35 ?      cpuhp/4
+
+     36 ?      idle_inject/4
+
+     37 ?      migration/4
+
+     38 ?      ksoftirqd/4
+
+     40 ?      kworker/4:0H-events_highpri
+
+     41 ?      cpuhp/5
+
+     42 ?      idle_inject/5
+
+     43 ?      migration/5
+
+     44 ?      ksoftirqd/5
+
+     46 ?      kworker/5:0H-events_highpri
+
+     47 ?      cpuhp/6
+
+     48 ?      idle_inject/6
+
+     49 ?      migration/6
+
+     50 ?      ksoftirqd/6
+
+     52 ?      kworker/6:0H-events_highpri
+
+     53 ?      cpuhp/7
+
+     54 ?      idle_inject/7
+
+     55 ?      migration/7
+
+     56 ?      ksoftirqd/7
+
+     58 ?      kworker/7:0H-events_highpri
+
+     59 ?      kdevtmpfs
+
+     60 ?      netns
+
+     61 ?      inet_frag_wq
+
+     62 ?      kauditd
+
+     63 ?      khungtaskd
+
+     64 ?      oom_reaper
+
+     65 ?      writeback
+
+     66 ?      kcompactd0
+
+     67 ?      ksmd
+
+     68 ?      khugepaged
+
+    115 ?      kintegrityd
+
+    116 ?      kblockd
+
+    117 ?      blkcg_punt_bio
+
+    119 ?      tpm_dev_wq
+
+    120 ?      ata_sff
+
+    121 ?      md
+
+    122 ?      edac-poller
+
+    123 ?      devfreq_wq
+
+    124 ?      watchdogd
+
+    126 ?      kworker/3:1H-events_highpri
+
+    128 ?      kswapd0
+
+    129 ?      ecryptfs-kthrea
+
+    131 ?      kthrotld
+
+    132 ?      irq/123-aerdrv
+
+    133 ?      irq/123-pcie-dp
+
+    134 ?      irq/124-aerdrv
+
+    135 ?      irq/124-pcie-dp
+
+    137 ?      acpi_thermal_pm
+
+    141 ?      vfio-irqfd-clea
+
+    145 ?      mld
+
+    146 ?      ipv6_addrconf
+
+    156 ?      kworker/7:1H-kblockd
+
+    157 ?      kstrp
+
+    160 ?      zswap-shrink
+
+    168 ?      charger_manager
+
+    203 ?      kworker/0:1H-events_highpri
+
+    226 ?      kworker/1:1H-events_highpri
+
+    227 ?      nvme-wq
+
+    228 ?      nvme-reset-wq
+
+    230 ?      nvme-delete-wq
+
+    233 ?      scsi_eh_0
+
+    234 ?      scsi_tmf_0
+
+    239 ?      kworker/6:1H-events_highpri
+
+    241 ?      irq/95-ELAN1300
+
+    246 ?      kworker/2:1H-events_highpri
+
+    247 ?      spi0
+
+    248 ?      kworker/4:1H-events_highpri
+
+    269 ?      jbd2/nvme0n1p5-
+
+    270 ?      ext4-rsv-conver
+
+    316 ?      systemd-journal
+
+    349 ?      kworker/5:1H-kblockd
+
+    350 ?      systemd-udevd
+
+    354 ?      loop0
+
+    368 ?      loop1
+
+    369 ?      loop2
+
+    371 ?      loop3
+
+    383 ?      loop4
+
+    384 ?      loop5
+
+    390 ?      loop6
+
+    411 ?      loop7
+
+    440 ?      loop8
+
+    442 ?      asus_wireless_w
+
+    443 ?      loop9
+
+    457 ?      loop10
+
+    472 ?      cfg80211
+
+    480 ?      irq/138-mei_me
+
+    482 ?      irq/139-iwlwifi
+
+    483 ?      irq/140-iwlwifi
+
+    490 ?      loop11
+
+    491 ?      irq/141-iwlwifi
+
+    495 ?      irq/142-iwlwifi
+
+    496 ?      irq/143-iwlwifi
+
+    497 ?      irq/144-iwlwifi
+
+    564 ?      cryptd
+
+    595 ?      loop12
+
+    596 ?      led_workqueue
+
+    615 ?      card0-crtc0
+
+    616 ?      card0-crtc1
+
+    617 ?      card0-crtc2
+
+    627 ?      loop13
+
+    667 ?      loop14
+
+    674 ?      kmemstick
+
+    737 ?      loop15
+
+    847 ?      loop16
+
+    894 ?      loop17
+
+    963 ?      loop18
+
+   1008 ?      loop19
+
+   1067 ?      loop20
+
+   1068 ?      loop21
+
+   1069 ?      loop22
+
+   1070 ?      loop23
+
+   1071 ?      loop24
+
+   1072 ?      loop25
+
+   1073 ?      loop26
+
+   1074 ?      loop27
+
+   1075 ?      loop28
+
+   1076 ?      loop29
+
+   1077 ?      loop30
+
+   1078 ?      loop31
+
+   1079 ?      loop32
+
+   1080 ?      loop33
+
+   1081 ?      loop34
+
+   1083 ?      loop35
+
+   1105 ?      loop36
+
+   1108 ?      loop37
+
+   1109 ?      loop38
+
+   1110 ?      loop39
+
+   1111 ?      loop40
+
+   1112 ?      loop41
+
+   1113 ?      loop42
+
+   1142 ?      systemd-resolve
+
+   1143 ?      systemd-timesyn
+
+   1206 ?      acpid
+
+   1209 ?      avahi-daemon
+
+   1212 ?      bluetoothd
+
+   1214 ?      dbus-daemon
+
+   1215 ?      NetworkManager
+
+   1220 ?      irqbalance
+
+   1224 ?      networkd-dispat
+
+   1226 ?      polkitd
+
+   1228 ?      power-profiles-
+
+   1231 ?      rsyslogd
+
+   1237 ?      snapd
+
+   1239 ?      accounts-daemon
+
+   1241 ?      cron
+
+   1242 ?      switcheroo-cont
+
+   1245 ?      systemd-logind
+
+   1248 ?      thermald
+
+   1249 ?      udisksd
+
+   1255 ?      wpa_supplicant
+
+   1265 ?      avahi-daemon
+
+   1309 ?      cupsd
+
+   1321 ?      ModemManager
+
+   1324 ?      containerd
+
+   1355 ?      unattended-upgr
+
+   1369 ?      gdm3
+
+   1397 ?      postgres
+
+   1429 ?      postgres
+
+   1438 ?      postgres
+
+   1439 ?      postgres
+
+   1440 ?      postgres
+
+   1441 ?      postgres
+
+   1442 ?      postgres
+
+   1443 ?      postgres
+
+   1454 ?      postgres
+
+   1455 ?      postgres
+
+   1456 ?      postgres
+
+   1457 ?      postgres
+
+   1458 ?      postgres
+
+   1460 ?      postgres
+
+   1569 ?      rtkit-daemon
+
+   1979 ?      upowerd
+
+   2198 ?      packagekitd
+
+   2342 ?      colord
+
+   2476 ?      gdm-session-wor
+
+   2483 ?      cups-browsed
+
+   2484 ?      dockerd
+
+   2487 ?      whoopsie
+
+   2490 ?      kerneloops
+
+   2492 ?      kerneloops
+
+   2768 ?      systemd
+
+   2769 ?      (sd-pam)
+
+   2775 ?      pipewire
+
+   2776 ?      pipewire-media-
+
+   2777 ?      pulseaudio
+
+   2781 ?      gnome-keyring-d
+
+   2785 ?      dbus-daemon
+
+   2787 ?      gvfsd
+
+   2792 ?      gvfsd-fuse
+
+   2805 ?      tracker-miner-f
+
+   2810 ?      krfcommd
+
+   2813 ?      gvfs-udisks2-vo
+
+   2818 ?      gvfs-gphoto2-vo
+
+   2822 ?      gvfs-afc-volume
+
+   2827 ?      gvfs-mtp-volume
+
+   2831 ?      gvfs-goa-volume
+
+   2835 ?      goa-daemon
+
+   2842 ?      goa-identity-se
+
+   2853 ?      gdm-wayland-ses
+
+   2856 ?      gnome-session-b
+
+   2893 ?      gnome-session-c
+
+   2902 ?      gnome-session-b
+
+   2916 ?      at-spi-bus-laun
+
+   2920 ?      gnome-shell
+
+   2926 ?      dbus-daemon
+
+   2958 ?      xdg-permission-
+
+   2968 ?      gnome-shell-cal
+
+   2985 ?      evolution-sourc
+
+   2992 ?      evolution-calen
+
+   3000 ?      dconf-service
+
+   3006 ?      evolution-addre
+
+   3019 ?      gjs
+
+   3021 ?      at-spi2-registr
+
+   3037 ?      gsd-a11y-settin
+
+   3038 ?      gsd-color
+
+   3039 ?      gsd-datetime
+
+   3042 ?      gsd-housekeepin
+
+   3045 ?      gsd-keyboard
+
+   3047 ?      gsd-media-keys
+
+   3050 ?      gsd-power
+
+   3052 ?      gsd-print-notif
+
+   3054 ?      gsd-rfkill
+
+   3055 ?      gsd-screensaver
+
+   3056 ?      gsd-sharing
+
+   3057 ?      gsd-smartcard
+
+   3058 ?      gsd-sound
+
+   3059 ?      gsd-wacom
+
+   3062 ?      gnome-software
+
+   3096 ?      gsd-disk-utilit
+
+   3107 ?      blueman-applet
+
+   3112 ?      evolution-alarm
+
+   3129 ?      snap-store
+
+   3168 ?      xdg-document-po
+
+   3172 ?      fusermount
+
+   3190 ?      gsd-printer
+
+   3306 ?      gjs
+
+   3359 ?      obexd
+
+   3361 ?      blueman-tray
+
+   3364 ?      gjs
+
+   3391 ?      gvfsd-metadata
+
+   3405 ?      gvfsd-trash
+
+   3427 ?      xdg-desktop-por
+
+   3431 ?      xdg-desktop-por
+
+   3909 ?      jetbrains-toolb
+
+   3913 ?      jetbrains-toolb
+
+   3953 ?      gnome-terminal-
+
+   3973 pts/0  bash
+
+   4029 ?      Xwayland
+
+   4052 ?      ibus-daemon
+
+   4054 ?      gsd-xsettings
+
+   4063 ?      ibus-memconf
+
+   4064 ?      ibus-extension-
+
+   4066 ?      ibus-x11
+
+   4069 ?      ibus-portal
+
+   4091 ?      chrome
+
+   4098 ?      cat
+
+   4099 ?      cat
+
+   4119 ?      ibus-engine-sim
+
+   4124 ?      chrome_crashpad
+
+   4126 ?      chrome_crashpad
+
+   4132 ?      chrome
+
+   4133 ?      chrome
+
+   4134 ?      nacl_helper
+
+   4137 ?      chrome
+
+   4167 ?      chrome
+
+   4169 ?      chrome
+
+   4178 ?      chrome
+
+   4209 ?      chrome
+
+   4211 ?      chrome
+
+   4238 ?      chrome
+
+   4288 ?      chrome
+
+   4317 ?      chrome
+
+   4331 ?      chrome
+
+   4347 ?      chrome-gnome-sh
+
+   4475 ?      chrome
+
+   4488 ?      chrome
+
+   4489 ?      chrome
+
+   4495 ?      chrome
+
+   4567 ?      chrome
+
+   4597 ?      chrome
+
+   4640 ?      chrome
+
+   4662 ?      chrome
+
+   4676 ?      chrome
+
+   4704 ?      chrome
+
+   4719 ?      chrome
+
+   4743 ?      chrome
+
+   4755 ?      chrome
+
+   4775 ?      chrome
+
+   4793 ?      chrome
+
+   4809 ?      chrome
+
+   4829 ?      chrome
+
+   4844 ?      chrome
+
+   4860 ?      chrome
+
+   4894 pts/0  man
+
+   4904 ?      pager
+
+   4913 ?      update-notifier
+
+   5097 ?      code
+
+   5101 ?      code
+
+   5102 ?      code
+
+   5125 ?      code
+
+   5144 ?      code
+
+   5163 ?      code
+
+   5201 ?      code
+
+   5215 ?      code
+
+   5235 ?      code
+
+   5299 pts/3  bash
+
+   5318 ?      gvfsd-network
+
+   5336 ?      gvfsd-dnssd
+
+   5560 ?      cpptools
+
+   5594 ?      cpptools-srv
+
+   5621 ?      kworker/1:0-cgroup_destroy
+
+   6301 pts/1  bash
+
+   6670 ?      gnome-calendar
+
+   6745 ?      seahorse
+
+   6937 ?      telegram-deskto
+
+   9066 ?      kworker/0:1-cgroup_destroy
+
+  10198 ?      ssh-agent
+
+  10242 ?      cpptools-srv
+
+  16086 ?      kworker/0:2-events
+
+  17254 ?      chrome
+
+  17273 ?      chrome
+
+  17287 ?      chrome
+
+  17293 ?      chrome
+
+  18038 ?      kworker/1:2-mm_percpu_wq
+
+  20838 ?      kworker/u16:3-ext4-rsv-conversion
+
+  21205 ?      kworker/3:2-events
+
+  21962 ?      kworker/7:2-events
+
+  22494 ?      kworker/u17:1-rb_allocator
+
+  23483 ?      kworker/2:3-mm_percpu_wq
+
+  25943 ?      kworker/5:1-events
+
+  26090 ?      kworker/u16:1-i915
+
+  26094 ?      sudo
+
+  26095 ?      su
+
+  26096 pts/1  bash
+
+  26246 ?      chrome
+
+  26469 ?      kworker/4:2-events
+
+  26944 ?      kworker/u16:2-events_power_efficient
+
+  27136 ?      kworker/3:0-events
+
+  27172 ?      kworker/6:2-events
+
+  27202 ?      kworker/2:1
+
+  27375 ?      kworker/7:1-events
+
+  27553 ?      kworker/6:0-events
+
+  27599 ?      kworker/5:0-events
+
+  27792 ?      kworker/u17:0-i915_flip
+
+  27820 ?      kworker/4:1-events
+
+  27986 ?      kworker/7:0-mm_percpu_wq
+
+  28030 ?      kworker/6:1-events
+
+  28052 ?      kworker/u16:0-i915
+
+  28173 ?      kworker/3:1-mm_percpu_wq
+
+  28203 ?      chrome
+
+  28216 ?      chrome
+
+  28261 ?      kworker/u17:2
+
+  28423 ?      sudo
+
+  28424 ?      task2
+
